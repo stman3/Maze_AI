@@ -22,7 +22,7 @@ II. A sample program in python for the discussed algorithms.
 III. Sample output for the discussed algorithms.
 
 
-#A* Search Algorithm
+A* Search Algorithm
 ___________________________________________________________________________________________________________________________________________________________
 A* is an informed searching algorithm meaning it uses information called heuristic to solve the problem, this algorithm is used to find the shortest path from a starting point to a goal.
 This algorithm always searches for shorter paths first, which makes the algorithm optimal because it will find the solution with the least cost, and complete because it will find all the possible outcomes for the problem.
@@ -33,7 +33,8 @@ Figure.2 Weighted graph including heuristic
 What makes this algorithm so potent is the use of weighted graphs Figure.2. A weighted graph is a graph that uses numbers to show the cost of taking each path, which means that the algorithm can take the path with the minimum cost and find the best or shortest route in terms of distance and time.
 A major downside for this algorithm is that it takes a large amount of space to store every possible solution and a lot of time to find them.
 ___________________________________________________________________________________________________________________________________________________________
-#Implementation
+Implementation
+
 The following graph is considered in the implementation:
 
 <img width="833" alt="Screen Shot 1444-04-06 at 3 10 24 AM" src="https://user-images.githubusercontent.com/75269916/198908774-02a55610-8802-4d18-9997-00019dc3f3c9.png">
@@ -47,6 +48,5 @@ Figure.4 A* Path
 if you want to make it faster just change this line:
 
 <img width="468" alt="Screen Shot 1444-04-06 at 3 12 47 AM" src="https://user-images.githubusercontent.com/75269916/198908854-bbadaed3-c0fc-4136-af52-67ff6c1f75fc.png">
-.
 
 
